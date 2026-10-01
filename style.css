@@ -159,7 +159,7 @@ h2 em {
 }
 
 .about-text {
-  color: #555b60;
+  color:#7898B8;
   font-size: 17px;
   line-height: 1.8;
 }
@@ -251,7 +251,7 @@ h2 em {
 }
 
 .project-card > p:not(.project-index) {
-  color: #555b60;
+  color: #7898B8;
   font-size: 16px;
 }
 
