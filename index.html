@@ -1,115 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>  
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Adith Aryan — computer science and AI student, builder, and aspiring web developer.">
+  <title>Adith Aryan — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </div>
-    <section id="home">
-        <h1> Adith Aryan</h1>
-        <p class="text">Hi there, I am Adith,currently pursuing B.S degree from IIT-Madras parallelly while studying in Scaler School of Technology as an CS&AI student in Bengaluru.</p>
-        <img src="Image.jpeg" alt="My Image" width="100px">
+  <header class="site-header">
+    <a class="brand" href="#home">AA<span>.</span></a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a class="nav-contact" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <p class="eyebrow">STUDENT · BUILDER · CURIOUS BY NATURE</p>
+      <h1>Adith <span>Aryan.</span></h1>
+      <p class="hero-intro">
+        I’m a computer science and AI student who loves turning ideas into things people can use.
+      </p>
+      <a class="button" href="#projects">Explore my work ↓</a>
     </section>
-    <hr>
-    <section id="about">
-        <h2 >About</h2>
-        <p class="text">I am Originally from Telangana, Hyderabad.I was always been an tech enthusiast, especially always wanted to bulid an website or an application as an hobby.
-        Education : I completed my schooling from Sri Vamshidhar High School, Nadergul branch, Hyderabad then for JEE preparation , I studied in Sri Chaitanya Jr Kalasala for 2 years and right now at Scaler School of Technology.   
+
+    <section class="about section-wrap" id="about">
+      <p class="section-label"><span>01</span> A LITTLE ABOUT ME</p>
+
+      <div class="about-content">
+        <h2>Learning by<br>making <em>things.</em></h2>
+        <div class="about-text">
+          <p>
+            I’m originally from Hyderabad, Telangana. I’ve always been a tech enthusiast,
+            especially drawn to the idea of building websites and applications as a hobby.
+          </p>
+          <p>
+            I completed school at Sri Vamshidhar High School in Nadergul, then spent two
+            years at Sri Chaitanya Junior College preparing for JEE. I’m now studying at
+            Scaler School of Technology in Bengaluru while pursuing a B.S. degree from IIT Madras.
+          </p>
+          <p class="about-aside">Always learning. Always building.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-wrap" id="skills">
+      <p class="section-label"><span>02</span> WHAT I WORK WITH</p>
+
+      <div class="skills-grid">
+        <h2>A growing<br><em>toolkit.</em></h2>
+
+        <div class="skill-group">
+          <span class="skill-number">01</span>
+          <h3>Programming</h3>
+          <p>Java</p>
+        </div>
+
+        <div class="skill-group">
+          <span class="skill-number">02</span>
+          <h3>Web development</h3>
+          <p>HTML · CSS</p>
+        </div>
+
+        <div class="skill-group">
+          <span class="skill-number">03</span>
+          <h3>Tools</h3>
+          <p>Git · GitHub</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <p class="section-label"><span>03</span> SELECTED PROJECTS</p>
+
+      <div class="projects-heading">
+        <h2>Made to learn.<br><em>Built to share.</em></h2>
+        <p>
+          Practice projects that helped me explore the web development process,
+          from first prompt to finished page.
         </p>
-        <hr>
-    <section class="Skills" class="text">
-        <h2>Skills</h2>
-                Programming languages
-                <ul>
-                    <li>Java</li>
-                </ul>
-                </li>
-                <li>
-                Web Development
-                <ul>
-                    <li>HTML</li>
-                    <LI>CSS</LI>
-                </ul>
-                </li>
-                <li>
-                Other
-                <ul>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                </ul>
-                
-    </section>
-    <hr>
-    <section id="projects" class="text">
-        <h2>Projects</h2>
-        <article>
-            <h3>Web site for Ramadevi Academy</h3>
-            <p>I created a very thoughtful website for Ramadevi Academy with AI assisting me, so I built the website by giving a prompt to a AI called bolt.new, from there I downloaded the code and made the required changes in VS code and pushed it to GitHub and then deployed it on vercel, it was basically a fictional website I created just to learn the workflow of freelancing for website development. </p>
-            <label for="link">You can visit my web page by clicking here :</label>
-            <a href="https://ramadevi-academy.vercel.app/">Click here to visit the site</a>
-                <li>
-                    Technologies used
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>REACT</li>
-                        <li>Node JS</li>
-                        <li>git</li>
-                        <li>GitHub</li>
-                    </ul>
-                </li>
+      </div>
 
-            </ul>
-        </article>
-        <article>
-            <h3>Web site for Ari Academy</h3>
-            <p>Even this site is a fictional site created just to practice before doing a real time freelancing project, I got better than the first website I created,I haven't deployed it yet, but you can see the site. </p>
-            <a href="https://bolt.new/p/71494019">Click here to visit the site</a>
-            <li>
-                Technologies used
-            <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>REACT</li>
-                        <li>Node JS</li>
-                        <li>git</li>
-                        <li>GitHub</li>
-            </ul>
-            </li>
-        </article>
-    </section>
-    <hr>
-    <hr>
-    <section id="contact" class="text">
-        <h2>Contact</h2>
-        <form>
-            <label for="name">Name :</label>
-            <input type="text" id="name" required>
-            <br>
-            <br>
-            <label for="email">Email :</label>
-            <input type="email" id="email" required>
-            <br>
-            <br>
-            <textarea name="message" id="message" required
-            placeholder="message "></textarea>
-            <br>
-            <br>
-            <button type="submit">Submit</button>
+      <div class="project-list">
+        <div class="project-card">
+          <p class="project-index">PROJECT 01</p>
+          <h3>Ramadevi Academy</h3>
+          <p>
+            A fictional academy website built to learn the freelance workflow. I started
+            with an AI-assisted draft, refined the code in VS Code, pushed it to GitHub,
+            and deployed it on Vercel.
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Git &amp; GitHub</span>
+          </div>
+          <a class="text-link" href="https://ramadevi-academy.vercel.app/"
+             target="_blank" rel="noopener noreferrer">
+            Visit live site ↗
+          </a>
+        </div>
 
+        <div class="project-card project-card-alt">
+          <p class="project-index">PROJECT 02</p>
+          <h3>Ari Academy</h3>
+          <p>
+            A second fictional academy site made as hands-on practice. Building on my
+            first project, I focused on improving my process and the finished experience.
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Git &amp; GitHub</span>
+          </div>
+          <a class="text-link" href="https://bolt.new/p/71494019"
+             target="_blank" rel="noopener noreferrer">
+            View the project ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <p class="section-label"><span>04</span> CONTACT</p>
+
+      <div class="contact-layout">
+        <div class="contact-intro">
+          <h2>Let’s talk.</h2>
+          <p>
+            Have a project idea or just want to say hello? Send me a message.
+          </p>
+        </div>
+
+        <form class="contact-form" action="mailto:" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"
+                    placeholder="Write your message" required></textarea>
+
+          <button class="button" type="submit">Send message</button>
         </form>
+      </div>
     </section>
-    
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand" href="#home">AA<span>.</span></a>
+    <p>© 2025 Adith Aryan</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
 </body>
 </html>
